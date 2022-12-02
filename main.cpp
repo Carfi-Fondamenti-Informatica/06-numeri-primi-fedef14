@@ -12,7 +12,7 @@ int main(){
   
   if(b==true){
     cout << "numero primo" << endl;
-  }if else(b==false){
+  } else if(b==false){
     cout << "numero non primo" << endl;
   }
      
