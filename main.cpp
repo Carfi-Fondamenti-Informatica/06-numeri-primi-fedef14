@@ -5,9 +5,12 @@ using namespace std;
 int main(){
   
  int a = 0;
+  bool b;
   cin >> a;
+  int d = (a/2);
+  b = numeriprimi(d,a)
   
-  if(numeriprimi((a/2),a)){
+  if(b==true){
     cout << "numero primo" << endl;
   } else{
     cout << "numero non primo" << endl;
