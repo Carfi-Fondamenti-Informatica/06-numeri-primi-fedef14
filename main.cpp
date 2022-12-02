@@ -8,11 +8,11 @@ int main(){
   bool b;
   cin >> a;
   int d = (a/2);
-  b = numeriprimi(d,a)
+  b = numeriprimi(d,a);
   
   if(b==true){
     cout << "numero primo" << endl;
-  } else{
+  }if else(b==false){
     cout << "numero non primo" << endl;
   }
      
